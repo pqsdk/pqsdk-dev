@@ -1,4 +1,79 @@
-<%inherit file="_templates/site.mako" />
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+    <title>
+    PqSDK
+</title>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed"
+/>
+<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom"
+/>
+<link rel='stylesheet' href='/css/pygments_murphy.css' type='text/css' />
+<link rel='stylesheet' href='/css/pygments_monokai.css' type='text/css' />
+<link rel='stylesheet' href='/css/screen.css' type='text/css' media="screen, projection"
+/>
+<link rel='stylesheet' href='/css/print.css' type='text/css' media="print"
+/>
+<!--[if lt IE 8]>
+    <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
+<![endif]-->
+<link rel='stylesheet' href='/css/app.css' type='text/css' media="screen, projection"
+/>
+<link rel='stylesheet' href='/css/fancy.css' type='text/css' media="screen, projection"
+/>
+
+<script type="text/javascript" src="/js/jquery-1.4.2.min.js">
+</script>
+<script type="text/javascript" src="/js/googleRSSWidget.js">
+</script>
+<script type="text/javascript" src="/js/site.js">
+</script>
+
+    </head>
+    
+    <body>
+        <div class="container">
+            
+    
+    <div id="header" onclick="location.href='/';"
+    style="cursor: pointer;">        
+    </div>    
+    <hr> 
+    <h2>
+        <a href="/" class="blog_name">
+        <span id="blog_name">
+            PqSDK
+        </span>
+        </a>
+    </h2>
+             
+    <hr> 
+    <h2 class="alt">Passionate quest for Software Development Knowledge.</h2> 
+    <hr>
+    <div class="tab-menu">
+	    <ul>
+	        <li id="page-blog" >
+	            <a href="/">Blog</a>
+	        </li>
+	        <li id="page-project" >
+	            <a href="/projects">Projects</a>
+	        </li>
+	        <li id="page-about" >
+	            <a href="/about">About</a>
+	        </li>
+	    </ul>
+	</div>
+	<hr class="space">
+            
+                        
+            <div class="span-15 colborder">
+                
 
 <div class="span-7 colborder"> 
 	<h3>About me</h3> 
@@ -13,4 +88,119 @@
 <script>
 	$j('#page-about').addClass('active');
 </script>               
+
+<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script type="text/javascript">
+var z7x4a3 = new WufooForm();
+z7x4a3.initialize({
+'userName':'pqsdk', 
+'formHash':'z7x4a3', 
+'autoResize':true,
+'height':'622'});
+z7x4a3.display();
+</script>
          
+
+            </div>
+                
+            <div class="span-7 last">
+                
+    
+<div id="search">
+    <h3>
+        Search
+        <div id="search">
+            <form id="searchform" method="get" action="http://www.google.com/search">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="domains" value="info.pqsdk.org">
+                <input type="hidden" name="sitesearch" value="info.pqsdk.org">
+                <input name="q" id="q" size="20" value="search in blog..." onfocus="if(this.value==this.defaultValue) this.value='';"
+                type="text">
+            </form>
+        </div>
+    </h3>
+<div>
+<hr>    
+<div id="blog_post_list">
+    <h3>
+        Latest blog posts
+    </h3>
+    <ul>
+        <li>
+            <a href="/blog/2011/02/13/running-blogofile-on-google-app-engine">Running Blogofile on Google App Engine</a>
+        </li>
+    </ul>
+</div>
+<hr>
+<div id="categories">
+    <h3>
+        Categories
+    </h3>
+    <ul>
+        <li>
+            <a href="/blog/category/appengine">appengine</a>
+            (
+            <a href="/blog/category/appengine/feed">rss</a>
+            ) (1)
+        </li>
+        <li>
+            <a href="/blog/category/blogofile">blogofile</a>
+            (
+            <a href="/blog/category/blogofile/feed">rss</a>
+            ) (1)
+        </li>
+    </ul>
+</div>
+<hr>
+<div id="archives">
+    <h3>
+        Archives
+    </h3>
+    <ul>
+        <li>
+            <a href="/blog/archive/2011/02/1" title="February 2011">February 2011</a>
+            &nbsp;(1)
+        </li>
+    </ul>
+</div>
+<hr>
+
+            </div>    
+            
+            
+    <p id="credits">
+RSS feeds for <a href="/blog/feed">Entries</a>
+ and <a
+href="http://optimalogiclabs.disqus.com/latest.rss">Comments</a>.
+<br>
+</p>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/optimalogiclabs/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
+<hr>
+Powered by <a href="http://www.blogofile.com">Blogofile</a>.
+<br/>
+&copy; 2011&nbsp;<a href="http://info.pqsdk.org">Kevin Hoang Le.</a>&nbsp;&nbsp;All Rights Reserved.
+
+
+        </div>
+    </body>
+    
+</html>
+
+
+
+
