@@ -7,12 +7,166 @@
   <title type="text">PqSDK</title>
   <subtitle type="text">Passionate quest for Software Development Knowledge</subtitle>
 
-  <updated>2011-03-11T07:09:51Z</updated>
+  <updated>2011-05-20T06:51:57Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="None" />
   <id>None/feed/atom/</id>
   <link rel="self" type="application/atom+xml" href="None/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>None</uri>
+    </author>
+    <title type="html"><![CDATA[Switching from Ubuntu to Crunchbang]]></title>
+    <link rel="alternate" type="text/html" href="http://info.pqsdk.org/blog/2011/05/20/switching-from-ubuntu-to-crunchbang" />
+    <id>http://info.pqsdk.org/blog/2011/05/20/switching-from-ubuntu-to-crunchbang</id>
+    <updated>2011-05-20T22:00:00Z</updated>
+    <published>2011-05-20T22:00:00Z</published>
+    <category scheme="None" term="linux" />
+    <summary type="html"><![CDATA[Switching from Ubuntu to Crunchbang]]></summary>
+    <content type="html" xml:base="http://info.pqsdk.org/blog/2011/05/20/switching-from-ubuntu-to-crunchbang"><![CDATA[<p>I have been an Ubuntu user since late 2005, when the 5.10 release was the latest.  About 3 weeks ago, I upgraded to the 11.04 release.  Unfortunately, my Dell Latitude D430 which uses the Broadcom wireless card just stopped working.  There appears to be some solutions:</p>
+<p><a href="http://www.baibhav.com.np/article/6-computer-tips-a-tricks/25-broadcom-wireless-card-is-not-working-in-ubuntu-1104-solved.html">http://www.baibhav.com.np/article/6-computer-tips-a-tricks/25-broadcom-wireless-card-is-not-working-in-ubuntu-1104-solved.html</a></p>
+<p>or</p>
+<p><a href="http://computerandu.wordpress.com/2011/05/04/how-to-solve-no-wireless-networks-in-ubuntu-11-04/">http://computerandu.wordpress.com/2011/05/04/how-to-solve-no-wireless-networks-in-ubuntu-11-04/</a></p>
+<p>But instead of continuing using Ubuntu, I decided to use lighter distro or rather a distro with a lighter window manager.  I narrowed to 2 possible choices: <a href="http://lubuntu.net/">Lubuntu</a> and <a href="crunchbanglinux.org">Crunchbang</a>.  After backing up everything I need to keep, I tried both.  First with Lubuntu.  Lubuntu uses <a href="http://lxde.org/">LXDE, the Lightweight X11 Desktop Environment</a>, whereas Crunchbang uses <a href="http://openbox.org/">Openbox window manager</a>.  Since Lubuntu is just a variant of Ubuntu, the problem with the Broadcom card not seeing the wireless networks is still there. <br />
+</p>
+<p>Then I tried Crunchbang and it turns out to be a great experience.  Here are some of the features that I love about Crunchbang:</p>
+<ul>
+<li>
+<p>The installation is comparable to that of Ubuntu and its variants.  What's cool is that there's a post-installation script called cb-welcome in the /usr/bin/ directory.  I decided to run it.  Consequently, Java, the LAMP stack, git, hg, svn, etc are all installed.<br />
+</p>
+</li>
+<li>
+<p>The computer/OS runs much faster than I ever experienced before with Ubuntu.  I have installed on both of my laptops: a Dell Latitude D430 that I mentioned earlier and a Dell Inspiron 600m.  They both run great.</p>
+</li>
+</ul>]]></content>
+  </entry>
+  <entry>
+    <author>
+      <name></name>
+      <uri>None</uri>
+    </author>
+    <title type="html"><![CDATA[Building a Titanium Appcelerator desktop app using Python]]></title>
+    <link rel="alternate" type="text/html" href="http://info.pqsdk.org/blog/2011/03/11/building-a-titanium-appcelerator-desktop-app-using-python" />
+    <id>http://info.pqsdk.org/blog/2011/03/11/building-a-titanium-appcelerator-desktop-app-using-python</id>
+    <updated>2011-03-11T18:00:00Z</updated>
+    <published>2011-03-11T18:00:00Z</published>
+    <category scheme="None" term="titanium appcelerator" />
+    <category scheme="None" term="python" />
+    <category scheme="None" term="javascript" />
+    <category scheme="None" term="webkit" />
+    <summary type="html"><![CDATA[Building a Titanium Appcelerator desktop app using Python]]></summary>
+    <content type="html" xml:base="http://info.pqsdk.org/blog/2011/03/11/building-a-titanium-appcelerator-desktop-app-using-python"><![CDATA[<p>I have never been impressed by desktop applications on Windows that look like they were built with MFC or VB forms or .NET forms with countless number of controls and controls.  On the hand, there are these desktop applications (usually from anti-virus software like McAfee) that are sometimes windowless and often sport stunning user interface (UI).  These UI look like a web page with nice colors, nice layout and pleasant-looking fonts.  I never knew even where to start building something like that in an efficient way.  Certainly, not with any tool by Microsoft.  <a href="http://www.ultimatepp.org/index.html">U++ framework</a> does not have anything either.  But when <a href="http://qt.nokia.com/products">QT had this Webkit Integration</a>, it started to look possible.  The task of building a useful desktop application remains quite not so easy.  Unless you put together a sample tutorial that points the webkit to <a href="http://google.com">google.com</a>, you would have to build a service that also embed a small, lightweight web server, where your webkit would point to.  It can start to get, not impossible, but quite involved.</p>
+<p>The company <a href="http://www.appcelerator.com/">Appcelerator</a> released this product called <a href="http://www.appcelerator.com/products/titanium-desktop-application-development/">Titanium Desktop</a> and <a href="http://www.appcelerator.com/products/titanium-mobile-application-development/">Titanium Mobile</a> that I think are just brilliant.  My interest is with the mobile product, but I'll start experimenting with the desktop.  Follow the 2 above links, you can start to see how appealing they are.  What drew me first to Titanium is when I read that it has full support for Python, Javascript, HTML, CSS.  It can also do Ruby and PHP, but those are moot points for me since I just started learning Ruby and have not had much experience with it anyway.  At first look, there seems to be good online documentation, an online Developer Center, a forum, etc.  The problem is there not much in any one of those places to read and learn from.  In my case, I want to use Javascript and Python to build my application.  At the time of this writing, there just doesn't seem to be much:</p>
+<p><a href="http://developer.appcelerator.com/doc/desktop/python">http://developer.appcelerator.com/doc/desktop/python</a>.</p></p>
+<p><a href="http://developer.appcelerator.com/question/84901/very-basic-example-with-python">http://developer.appcelerator.com/question/84901/very-basic-example-with-python</a>.</p>
+<p><a href="http://developer.appcelerator.com/questions/tag/python">http://developer.appcelerator.com/questions/tag/python</a></p>
+<p><a href="http://www.brighthub.com/hubfolio/matthew-casperson/articles/52383.aspx">http://www.brighthub.com/hubfolio/matthew-casperson/articles/52383.aspx</a>.  This is a good article, but it does not address how to call Python.</p>
+<p><a href="http://stackoverflow.com/questions/4026814/appcelerator-titanium-developer-with-python-php-ruby">http://stackoverflow.com/questions/4026814/appcelerator-titanium-developer-with-python-php-ruby</a>.  Even on StackOverflow, there's not much there.</p>
+<p>Of course, I was completely lost.  Some of my initial questions are:</p>
+<ol>
+<li>
+<p>Do I need to embed some kind of Python web server?</p>
+</li>
+<li>
+<p>Can I , must I, should I use Django or Pylons or Flask?</p>
+</li>
+<li>
+<p>How can I call Python code? By making HTTP request? but to which URL end point and how to specify them?</p>
+</li>
+<li>
+<p>Maybe call Python directly? But what's the syntax? How to return data from Python code? Where to put Python code?</p>
+</li>
+</ol>
+<p>There's a <a href="https://github.com/appcelerator/KitchenSink">kitchen sink</a> sample.  I browsed briefly, but did not import it, and didn't see any Python code that could help me getting started.  So after struggling for a few days, I now have an application that is built using Python and I want to share.  Once I look back nopw at the result, it looks quite simple.  But that didn't seem too obvious to me at first.</p>
+<p>Normally, I would use my Ubuntu laptop, but for now, there's still an issue with Ubuntu that I think Appcelerator must fix sooner than later.  Or else, it would defeat their purpose of cross-platform.  So if you want to follow along, please use your Windows machine.  (I will try on OS X later and keep posted).</p>
+<p>First, go ahead and launch the Titanium app:</p>
+<p><img alt="Create new Project" src="https://github.com/pragmaticobjects/pqsdk-blog-img/raw/master/Building%20a%20Titanium%20Appcelerator%20desktop%20app%20using%20Python/TitaniumFileExplorer%20New%20Project.png" title="Create new Project" /></p>
+<p>What you put in here is self-explanatory.  Once you select "Create Project", Titanium creates a directory structure similar to the next picture:</p>
+<p><img alt="TitaniumFileExplorer directory structure" src="https://github.com/pragmaticobjects/pqsdk-blog-img/raw/master/Building%20a%20Titanium%20Appcelerator%20desktop%20app%20using%20Python/TitaniumFileExplorer%20Directory%20Structure.png" title="TitaniumFileExplorer directory structure" /></p>
+<p>Initially, Titanium only generates the "index.html" file in the "Resources" directory.  We would have to create the "js", "css", "img" sub directories just like we would when developing web applications.  Since I want to code in Python, I create a Python source file called "fileexplorer.py", and also put it in this "Resources" directory.  In the "TitaniumFileExplorer" directory, there's also a file called "tiapp.xml" (not shown in the picture) where we can specify attributes like width, height, max width, max height, title, full screen, etc.</p>
+<p>The <a href="https://gist.github.com/867091">"fileexplorer.py"</a> code is listed below:</p>
+<div class="pygments_murphy"><pre>import sys, os, <span class="nb">time</span>
+
+<p>def listFiles<span class="o">(</span>val<span class="o">)</span>:
+    <span class="nv">curdir</span> <span class="o">=</span> os.getcwd<span class="o">()</span>
+    <span class="nv">files</span> <span class="o">=</span> <span class="o">[]</span>
+    <span class="k">for </span>filename in os.listdir<span class="o">(</span>curdir<span class="o">)</span>:
+        <span class="k">if</span> <span class="o">(</span>not filename.startswith<span class="o">(</span><span class="s1">&#39;.&#39;</span><span class="o">))</span>:
+            <span class="nv">s</span> <span class="o">=</span> os.stat<span class="o">(</span>os.path.join<span class="o">(</span>curdir, filename<span class="o">))</span>
+            <span class="nv">lastmodified</span> <span class="o">=</span> time.strftime<span class="o">(</span><span class="s2">&quot;%Y-%m-%d %I:%M %p&quot;</span>, time.localtime<span class="o">(</span>s.st_mtime<span class="o">))</span>
+            <span class="nv">size</span> <span class="o">=</span> os.path.getsize<span class="o">(</span>os.path.join<span class="o">(</span>curdir, filename<span class="o">))</span>
+            <span class="nv">isdir</span> <span class="o">=</span> os.path.isdir<span class="o">(</span>os.path.join<span class="o">(</span>curdir, filename<span class="o">))</span>
+            <span class="k">if </span>isdir is True:
+                <span class="nv">filesize</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="k">else</span>:
+                <span class="k">if </span>size &lt; 1000:
+                    <span class="nv">filesize</span> <span class="o">=</span> <span class="s2">&quot;1 KB&quot;</span>
+                <span class="k">elif </span>size &lt; 1000000:
+                    <span class="nv">filesize</span> <span class="o">=</span> <span class="s2">&quot;%.2f %s&quot;</span> % <span class="o">((</span>size / 1000<span class="o">)</span>, <span class="s1">&#39; KB&#39;</span><span class="o">)</span>
+                <span class="k">else</span>:
+                    <span class="nv">filesize</span> <span class="o">=</span> <span class="s2">&quot;%.2f %s&quot;</span> % <span class="o">((</span>size / 1000000<span class="o">)</span>, <span class="s1">&#39;MB&#39;</span><span class="o">)</span>
+            <span class="nv">fileattr</span> <span class="o">=</span> <span class="o">{</span>
+            <span class="s1">&#39;filename&#39;</span> : filename,
+            <span class="s1">&#39;isdir&#39;</span>: isdir,
+            <span class="s1">&#39;filesize&#39;</span>: filesize,
+            <span class="s1">&#39;lastmodified&#39;</span>: lastmodified
+            <span class="o">}</span>
+            files.append<span class="o">(</span>fileattr<span class="o">)</span>
+    <span class="k">return </span>files
+</pre></div></p>
+<p>Inside the function fileFiles(), I made some os file-related calls.  The only thing to notice here is the function returns a JSON object called <strong>files</strong>.  Next, we will see how this function file gets invoked from Javascript (in <a href="https://gist.github.com/867096"><strong>index.html</strong></a>).</p>
+<div class="pygments_murphy"><pre><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">jQuery</span><span class="p">(</span><span class="s2">&quot;#files-list&quot;</span><span class="p">).</span><span class="nx">jqGrid</span><span class="p">({</span>
+            <span class="nx">datatype</span><span class="o">:</span> <span class="s2">&quot;local&quot;</span><span class="p">,</span>
+            <span class="nx">height</span><span class="o">:</span> <span class="mi">350</span><span class="p">,</span>
+            <span class="nx">colNames</span><span class="o">:</span><span class="p">[</span><span class="s1">&#39;File Name&#39;</span><span class="p">,</span> <span class="s1">&#39;Type&#39;</span><span class="p">,</span> <span class="s1">&#39;Size&#39;</span><span class="p">,</span> <span class="s1">&#39;Last Modified&#39;</span><span class="p">],</span>
+            <span class="nx">colModel</span><span class="o">:</span><span class="p">[</span>
+                <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;filename&#39;</span><span class="p">,</span> <span class="nx">index</span><span class="o">:</span> <span class="s1">&#39;filename&#39;</span><span class="p">,</span> <span class="nx">width</span><span class="o">:</span> <span class="mi">400</span><span class="p">,</span> <span class="nx">sorttype</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span><span class="p">},</span>
+                <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;isfolder&#39;</span><span class="p">,</span> <span class="nx">index</span><span class="o">:</span> <span class="s1">&#39;isfolder&#39;</span><span class="p">,</span> <span class="nx">width</span><span class="o">:</span> <span class="mi">110</span><span class="p">,</span> <span class="nx">sorttype</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span><span class="p">},</span>
+                <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;filesize&#39;</span><span class="p">,</span> <span class="nx">index</span><span class="o">:</span> <span class="s1">&#39;filesize&#39;</span><span class="p">,</span> <span class="nx">width</span><span class="o">:</span> <span class="mi">100</span><span class="p">,</span> <span class="nx">sorttype</span><span class="o">:</span> <span class="s2">&quot;float&quot;</span><span class="p">},</span>
+                <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;lastmodified&#39;</span><span class="p">,</span> <span class="nx">index</span><span class="o">:</span> <span class="s1">&#39;lastmodified&#39;</span><span class="p">,</span> <span class="nx">width</span><span class="o">:</span> <span class="mi">320</span><span class="p">,</span> <span class="nx">sorttype</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span><span class="p">}</span>
+            <span class="p">],</span>
+            <span class="nx">multiselect</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="nx">caption</span><span class="o">:</span> <span class="s2">&quot;Titanium File Explorer&quot;</span>
+        <span class="p">});</span>
+        <span class="kd">var</span> <span class="nx">files</span> <span class="o">=</span> <span class="nx">fileexplorer</span><span class="p">.</span><span class="nx">listFiles</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
+        <span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">files</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">rowData</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="nx">filename</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">filename</span><span class="p">,</span>
+                <span class="nx">isfolder</span><span class="o">:</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">isdir</span> <span class="o">==</span> <span class="kc">true</span><span class="p">)</span> <span class="o">?</span> <span class="s1">&#39;Folder&#39;</span><span class="o">:</span> <span class="s1">&#39;File&#39;</span><span class="p">,</span>
+                <span class="nx">filesize</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">filesize</span><span class="p">,</span>
+                <span class="nx">lastmodified</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">lastmodified</span>
+            <span class="p">};</span>
+            <span class="nx">jQuery</span><span class="p">(</span><span class="s2">&quot;#files-list&quot;</span><span class="p">).</span><span class="nx">jqGrid</span><span class="p">(</span><span class="s1">&#39;addRowData&#39;</span><span class="p">,</span> <span class="nx">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nx">rowData</span><span class="p">);</span>
+        <span class="p">});</span>
+    <span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
+
+<p>For this simple/demo application, I decide to use jQuery and <a href="http://www.trirand.com/blog/">jqGrid</a>.  If you havealready taken a look at the HTML file, you would see there's a bunch of Javascript files that get included, which should not be too surprising.  Everything just look like a web app.  The only difference is the inclusion of Python code:</p>
+<div class="pygments_murphy"><pre><span class="o">&lt;</span><span class="n">script</span> <span class="nb">type</span><span class="o">=</span><span class="s">&quot;text/python&quot;</span><span class="o">&gt;</span>
+    <span class="kn">import</span> <span class="nn">fileexplorer</span>
+<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+</pre></div>
+
+<p>In the document ready handler, after some initialization of the grid, the call to the above Python function is made.  This is where things are different from a web app, where you are expected to make an Ajax request/call here.  When the call to Python finishes, as it returns a JSON list (or array) of objects, I simply iterate and add each element to a row in the grid.  Again this is different from a web app.  In a web app code, you would iterate and process whatever inside a callback function.  Other than these key differences, the code is quite simple:</p>
+<div class="pygments_murphy"><pre><span class="kd">var</span> <span class="nx">files</span> <span class="o">=</span> <span class="nx">fileexplorer</span><span class="p">.</span><span class="nx">listFiles</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span> 
+<span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">files</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">rowData</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="nx">filename</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">filename</span><span class="p">,</span>
+        <span class="nx">isfolder</span><span class="o">:</span> <span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">isdir</span> <span class="o">==</span> <span class="kc">true</span><span class="p">)</span> <span class="o">?</span> <span class="s1">&#39;Folder&#39;</span><span class="o">:</span> <span class="s1">&#39;File&#39;</span><span class="p">,</span>
+        <span class="nx">filesize</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">filesize</span><span class="p">,</span>
+        <span class="nx">lastmodified</span><span class="o">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">lastmodified</span>
+    <span class="p">};</span>
+    <span class="nx">jQuery</span><span class="p">(</span><span class="s2">&quot;#files-list&quot;</span><span class="p">).</span><span class="nx">jqGrid</span><span class="p">(</span><span class="s1">&#39;addRowData&#39;</span><span class="p">,</span> <span class="nx">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nx">rowData</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+<p><strong>Final Thoughts:</strong></p>]]></content>
+  </entry>
   <entry>
     <author>
       <name></name>
